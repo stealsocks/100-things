@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+	{{ partial "head.html" . }}
+	{{ template "_internal/google_analytics.html" . }}
+	</head>
+	<body>
+
+<div class="container">	
+				{{ partial "header.html" . }}
+
+			<div class="main">
+<div id="progress">
+<b><span id="count"> {{ (len $.Site.Data.items.items) }}/100
+</span></b>
+<div id="bar">
+<div id="filled" style="width:{{ (len $.Site.Data.items.items) }}%"> 
+</div>
+</div>
+</div>
+
+
+<iframe id="shower" class="frame-hide"
+    title="Look"
+    src="none">
+</iframe>
+
+				<ul id="og-grid" class="og-grid">
+{{ range $.Site.Data.items.items }}
+	<li class="done-divs {{.special}}" >
+        <a href="{{.url}}" target="_blank" rel="noopener noreferrer"><h3> {{.title}} </h3></a>
+        <span> {{.description}} </span>
+        <button class="view" onclick="expand({{.url}})"> VIEW </button>
+	
+        
+	
+					</li>
+					{{ end }}
+
+{{ range $i, $sequence :=  (seq (sub 100  (len $.Site.Data.items.items)) ) }}
+
+<li class="undone-divs">
+        
+	<a href="none" >
+ </a>
+</li>
+
+{{ end }}
+				</ul>
+
+				{{ partial "footer.html" . }}
+			</div>
+		</div>
+{{ partial "scripts.html" . }}
+</body>
+</html>
