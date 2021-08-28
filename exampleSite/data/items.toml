@@ -1,0 +1,41 @@
+[[items]]
+title = "Early"
+special = "true"
+description = "Is it in 11/12 or is it just rushed? You decide."
+url = "/posts/1"
+
+[[items]]
+title = "Push"
+special = "false"
+description = "Sloppy piano? Check. Four chord loop? Check."
+url = "/posts/2"
+
+[[items]]
+title = "Double Uke"
+special = "false"
+description = "Ukes are fun."
+url = "/posts/3"
+
+[[items]]
+title = "Fore"
+special = "false"
+description = "Four strings and impatience."
+url = "/posts/4"
+
+[[items]]
+title = "Pine"
+special = "true"
+description = "How long a song can you make with just two chords? At least 2:34."
+url = "/posts/5"
+
+[[items]]
+title = "Seren"
+special = "true"
+description = "1 friend. 2 guitars."
+url = "/posts/6"
+
+[[items]]
+title = "Jubilant"
+special = "false"
+description = "Bach meets preschool."
+url = "/posts/7"
