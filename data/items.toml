@@ -1,23 +1,11 @@
 [[items]]
 title = "First"
 special = "true"
-description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
+description = "Well, well, well."
 url = "/posts/first"
 
 [[items]]
 title = "Second"
 special = "false"
-description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
-url = "/posts/second"
-
-[[items]]
-title = "Third"
-special = "flase"
-description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
-url = "/posts/second"
-
-[[items]]
-title = "Fourth"
-special = "true"
-description = "A simple grid theme for Hugo. A kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on."
+description = "Not so special"
 url = "/posts/second"
