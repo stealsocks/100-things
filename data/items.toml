@@ -1,11 +1,5 @@
 [[items]]
 title = "First"
 special = "true"
-description = "Well, well, well."
+description = "Get started."
 url = "/posts/first"
-
-[[items]]
-title = "Second"
-special = "false"
-description = "Not so special"
-url = "/posts/second"
