@@ -1,0 +1,52 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "One Hundred Things"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "One Hundred Things"
+    subtitle = "Description of yourself, the project or it's goals."
+    author = "Judah"
+    description = "Hugrid - grid theme for Hugo with an expanding image preview."
+    keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+    begindate = "10-10-10"
+    latestupdate = "10-12-10"
+
+    # Body background color
+    bgcolor= "#f2f2f2"
+
+    # Text color
+    textcolor =  "black"
+
+    # Color of boxes 
+    boxcolor =  "white"
+    boxtextcolor =  "black"
+    boxbordercolor =  "black"
+
+    # Color of buttons   
+    buttoncolor =  "white"
+    buttoncolorhover =  "black"
+    buttontexthover =  "white"
+
+    # Color of Special boxes 
+    specialcolor =  "#ffe6a8"
+    specialtextcolor =  "black"
+
+    # Color of special buttons
+    specialbuttoncolor =  "gold"
+    specialbuttoncolorhover =  "white"
+    specialtextcolorhover =  "black"
+
+    # Color of progress bar
+    progresscolor =  "black"
+
+    # Footer text
+    footertext = "Made by Judah. With help from [blocks.css](https://thesephist.github.io/blocks.css/) and [hu-grid](https://github.com/aerohub/hugrid)."
+   
