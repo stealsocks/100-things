@@ -1,0 +1,11 @@
+name = "100 things: A single-page Hugo theme"
+license = "MIT License"
+licenselink = "//github.com/aerohub/hugrid/blob/master/LICENSE.md"
+description = "Showcase your 100 things lmao"
+homepage = "//github.com/stealsocks/100-things"
+tags = ["responsive", "grid", "simple", "blocks"]
+min_version = 0.15
+
+[author]
+  name = "Judah"
+  homepage = "//github.com/stealsocks/100-things"
