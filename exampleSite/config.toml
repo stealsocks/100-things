@@ -6,7 +6,7 @@ title = "One Hundred Things"
 googleAnalytics = "UA-XXXXXXXX-Y"
 
 datadir = "data"
-layoutdir = "layouts"
+layoutdir = "../layouts"
 publishdir = "public"
 
 [params]
