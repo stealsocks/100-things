@@ -6,6 +6,8 @@ homepage = "//github.com/stealsocks/100-things"
 tags = ["responsive", "grid", "simple", "blocks"]
 min_version = 0.15
 
+demosite = "https://onehundredsongs.netlify.app"
+
 [author]
   name = "Judah"
   homepage = "//github.com/stealsocks/100-things"
