@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{ partial "head.html" . }}
+<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/single.css" />
+</head>
+
+<body>
+<div> {{ partial "pheader.html" . }} </div>
+
+     
+        <div class="post-content markdown-body">
+        
+          {{ .Content }}
+        </div>
+
+</body>
+</html>

@@ -1,24 +1,27 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "One Hundred Things"
+title = "One Hundred Songs"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-XXXXXXXX-Y"
+
+relativeURLs = true
 
 datadir = "data"
 layoutdir = "../layouts"
 publishdir = "public"
 staticDir = "../static"
 archetypeDir = "../archetypes"
+
 [params]
     # Meta
-    title = "One Hundred Things"
-    subtitle = "Description of yourself, the project or it's goals."
+    title = "One Hundred Songs"
+    subtitle = "A place to put up my amateur noodling."
     author = "Judah"
     description = "Hugrid - grid theme for Hugo with an expanding image preview."
     keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
-    begindate = "10-10-10"
-    latestupdate = "10-12-10"
+    begindate = "20-06-21"
+    latestupdate = "18-10-21"
 
     # Body background color
     bgcolor= "#f2f2f2"

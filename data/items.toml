@@ -3,3 +3,9 @@ title = "First"
 special = "true"
 description = "Get started."
 url = "/posts/first"
+
+[[items]]
+title = "Second"
+special = "false"
+description = "Get started."
+url = "/posts/second"

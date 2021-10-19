@@ -1,7 +1,11 @@
-
 <script>
+
 var elements = document.getElementsByClassName("done-divs");
- var specifiedElement = document.getElementById('shower');
+var links = document.getElementsByTagName("a");
+
+for (var i = 0; i < elements.length; i++) {
+    links[i].addEventListener('click', stop, false);
+}
 
 
 //for (var i = 0; i < elements.length; i++) {
@@ -13,18 +17,14 @@ function expand(src){
 //event.stopPropagation()
 
 let element = document.getElementById("shower");
+  if(element.classList.contains("frame-hide")){
   element.classList.remove("frame-hide");
   element.classList.add("frame-show");
    element.src = src
-setTimeout( function(){document.addEventListener('click', close, false)}, 50);
-
+setTimeout( function(){document.addEventListener('click', close, false)}, 5);
+}
 }
 
-var links = document.getElementsByTagName("a");
-
-for (var i = 0; i < elements.length; i++) {
-    links[i].addEventListener('click', stop, false);
-}
 
 function stop(){
 event.stopPropagation()
@@ -36,18 +36,20 @@ function close(){
 console.log("yes")
 let element = document.getElementById("shower");
 
-        var isClickInside = specifiedElement.contains(event.target);
+        let isClickInside = element.contains(event.target);
         if (isClickInside) {
           console.log('You clicked inside')
         }
         else {
-          
+if(element.classList.contains("frame-show")){          
      element.classList.remove("frame-show");
      element.classList.add("frame-hide");
+    element.src="none"
   
           console.log('You clicked outside')
      document.removeEventListener("click", close, false)
         }
+}
 }
  
 

@@ -6,17 +6,61 @@
 		<meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}" />
 		<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}" />
 		<link rel="icon" href="{{ .Site.Params.BaseURL }}favicon.ico" />
-		{{ .Hugo.Generator }}
+		{{ hugo.Generator }}
 		<style>
 		body {
-		background: {{ .Site.Params.bodybgcolor }};
-		color: {{ .Site.Params.bodytextcolor }};
+		background: {{ .Site.Params.bgcolor }};
+		color: {{ .Site.Params.textcolor }};
 		}
+
+	.done-divs {
+	background: {{ .Site.Params.boxcolor }};
+        color: {{ .Site.Params.boxtextcolor }};
+        border: 2px solid {{ .Site.Params.boxbordercolor }};
+	}
+	.undone-divs {
+        background: {{ .Site.Params.boxcolor }};
+	border: 2px solid {{ .Site.Params.boxbordercolor }};
+	}
+	.view { 
+	background: {{ .Site.Params.buttoncolor }};
+	color: {{ .Site.Params.boxtextcolor }};
+  	}
+	.view:hover{
+	background: {{ .Site.Params.buttoncolorhover }};
+  	color: {{ .Site.Params.buttontexthover }};
+   	}
+	li.done-divs.true.block:before{
+	background: {{ .Site.Params.specialcolor }};
+	color: {{ .Site.Params.specialtextcolor }};
+	}
+	done-divs.true.block:after{
+	background: {{ .Site.Params.specialbuttoncolor }};
+	}
+	.done-divs.true.block:after:hover {
+	background: {{ .Site.Params.specialbuttoncolor }};
+	}
+        .true .view {
+	background: {{ .Site.Params.specialbuttoncolor }};  
+        color: {{ .Site.Params.specialtextcolor }};  
+	}
+        .true .view:hover{
+	background: {{ .Site.Params.specialbuttoncolorhover }};
+	color: {{ .Site.Params.specialtextcolorhover }};  
+	}  
+	#filled {
+	background: {{ .Site.Params.progresscolor }};  
+	}
+	a {
+	color: {{ .Site.Params.textcolor }};
+
+     
 		</style>
-		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default.css" />
+	
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/component.css" />
                 
 		{{ range .Site.Params.custom_css }}
 			<link rel="stylesheet" href="{{ . }}">
 		{{ end }}
+                <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
 		<script src="{{ .Site.BaseURL }}js/modernizr.custom.js"></script>
