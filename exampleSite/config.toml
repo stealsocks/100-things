@@ -16,7 +16,7 @@ archetypeDir = "../archetypes"
 [params]
     # Meta
     title = "One Hundred Things"
-    subtitle = "Showcase your attempts at "Do 100 Thing"
+    subtitle = "Showcase your attempts at [Do 100 Thing](http://www.visakanv.com/blog/100-2/)"
     author = "Judah"
     description = "Hugrid - grid theme for Hugo with an expanding image preview."
     keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
