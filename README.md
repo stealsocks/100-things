@@ -6,10 +6,10 @@ The config.toml file provides access to a variety of CSS properties, allowing fo
 
 
 ## Features:
-Responsive\
-Single-page\
-Easily customizable CSS\
-90/100 Google Lighthouse speed score
+-Responsive\
+-Single-page\
+-Easily customizable CSS\
+-90/100 Google Lighthouse speed score
 
 ## Installation:
 
