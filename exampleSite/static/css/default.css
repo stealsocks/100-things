@@ -1,0 +1,118 @@
+
+html { height: 100%; }
+
+#progress{ width: 25%;
+margin-left: 37.5%;
+}
+
+.view{
+display: block;
+width: 50%;
+height: 2rem;
+margin-left: 25%;
+bottom: 5%;
+background: #18b804;
+color: white;
+border-color: #0e6303;
+position: absolute;
+}
+
+#progress span{
+ display: block;
+ margin: auto;
+ text-align: center;
+ align-self: center;
+ margin-bottom: 10px;
+ font-size: 1.2rem;
+}
+
+#bar{
+width: 99%;
+height: 30px;
+border: solid 2px grey; 
+background: white;
+border-radius: 10px;
+
+}
+
+#filled{
+height: 99%;
+background: green;
+border-radius: 10px;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header {
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 30px 50px 30px;
+}
+
+.container > header {
+	padding: 60px 30px 50px;
+	text-align: center;
+}
+
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: white;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+}

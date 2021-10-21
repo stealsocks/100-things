@@ -7,12 +7,6 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 
 relativeURLs = true
 
-datadir = "data"
-layoutdir = "../layouts"
-publishdir = "public"
-staticDir = "../static"
-archetypeDir = "../archetypes"
-
 [params]
     # Meta
     title = "One Hundred Things"
