@@ -1,16 +1,15 @@
 # 100-things
 
 A grid theme with a pop-up iframe and [blocks.css](https://thesephist.github.io/blocks.css/) design. Intended to showcase the progress of your "Do 100 thing" project. 
-/
+
 The config.toml file provides access to a variety of CSS properties, allowing for personal customisation of your site's background, font, block elements and button design.
-/
+
 
 ## Features
 Responsive
 Single-page
 Easily customizable CSS
 90/100 Google Lighthouse speed score 
-/
 
 
 ## Installation:
