@@ -2,6 +2,8 @@
 
 A grid theme with a pop-up iframe and [blocks.css](https://thesephist.github.io/blocks.css/) design. Intended to showcase the progress of your "Do 100 thing" project. 
 
+![image](https://user-images.githubusercontent.com/73769521/138274660-19bb26e2-aaf8-401a-bdb2-859d5e9c982d.png)
+
 The config.toml file provides access to a variety of CSS properties, allowing for personal customisation of your site's background, font, block elements and button design.
 
 
