@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "One Hundred Songs"
+title = "One Hundred Things"
 
 theme = "100-things"
 relativeURLs = true
