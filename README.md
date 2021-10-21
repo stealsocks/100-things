@@ -5,7 +5,7 @@ A grid theme with a pop-up iframe and [blocks.css](https://thesephist.github.io/
 The config.toml file provides access to a variety of CSS properties, allowing for personal customisation of your site's background, font, block elements and button design.
 
 
-## Features
+## Features:
 Responsive
 Single-page
 Easily customizable CSS
@@ -28,13 +28,11 @@ cd themes
 git clone https://github.com/liuzc/LeaveIt.git
 
 ```
-/
 
 
 ## Getting Started:
 
 After installation, you need to copy the config.toml file from the exampleSite folder into your the root folder of your site. Edit the values to your preffered settings.
-/
 
 You also need to copy the items.toml file from exampleSite => data into your site's data file. You will need to add an entry to this file for every post you add. The structure of each entry is as follows:
 
