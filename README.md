@@ -2,14 +2,16 @@
 
 A grid theme with a pop-up iframe and [blocks.css](https://thesephist.github.io/blocks.css/) design. Intended to showcase the progress of your "Do 100 thing" project. 
 /
-The config.toml file provides access to a variety of CSS properties, allowing for personal customisation of your site's background, font, block elements and 
-
+The config.toml file provides access to a variety of CSS properties, allowing for personal customisation of your site's background, font, block elements and button design.
+/
+/
 ## Features
 Responsive
 Single-page
 Easily customizable CSS
 90/100 Google Lighthouse speed score 
-
+/
+/
 
 ## Installation:
 
@@ -27,7 +29,8 @@ cd themes
 git clone https://github.com/liuzc/LeaveIt.git
 
 ```
-
+/
+/
 
 ## Getting Started:
 
@@ -49,7 +52,33 @@ Tese values will be shown on the corresponding "block" on your main page. The "s
 /
 /
 The url setting should be "posts/YOUR_POST_NAME"
-
+/
+/
 ## Editing the site's CSS:
+Open the config.toml file and edit the values of the properties like you would a regular CSS file. 
+/
+e.g.
+```
+# Body background color
+    bgcolor= "black"
+
+    # Text color
+    textcolor =  "#FFFFFF"
+```
+
+## Adding a new post:
+/
+Create a posts folder inside your site's content folder and add a new markdown file. Then open data => items.toml and add a new entry for that post to make sure it's displayed on the home page grid.
+/
+/
+## Using the < content > shortcode:
+If you want to make sure your image, video or audio player are centered, add them inside a content shortcode like below:
+```
+{{< content >}}
+<img src="/mage.jpeg" />
+{{< /content >}}
+
+```
+
 
 
