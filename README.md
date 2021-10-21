@@ -45,27 +45,27 @@ url = "/posts/1"
 
 ```
 Tese values will be shown on the corresponding "block" on your main page. The "special" value can be toggled between true or false depending on if you want it to be differently coloured than the others. Like most display settings in this theme, the particular color for these special blocks can be configured in your config.toml file. 
-/
+
 
 The url setting should be "posts/YOUR_POST_NAME"
-/
+
 
 ## Editing the site's CSS:
-Open the config.toml file and edit the values of the properties like you would a regular CSS file. 
-/
+Open the config.toml file and edit the values of the properties like you would a regular CSS file.\
+
 e.g.
 ```
 # Body background color
     bgcolor= "black"
 
-    # Text color
+# Text color
     textcolor =  "#FFFFFF"
 ```
 
 ## Adding a new post:
-/
+
 Create a posts folder inside your site's content folder and add a new markdown file. Then open data => items.toml and add a new entry for that post to make sure it's displayed on the home page grid.
-/
+
 
 ## Using the < content > shortcode:
 If you want to make sure your image, video or audio player are centered, add them inside a content shortcode like below:
