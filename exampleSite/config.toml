@@ -13,6 +13,8 @@ relativeURLs = true
     author = "Judah"
     description = "Hugrid - grid theme for Hugo with an expanding image preview."
     keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+    
+    #Update these when needed
     begindate = "20-06-21"
     latestupdate = "18-10-21"
 
